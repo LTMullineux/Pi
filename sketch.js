@@ -1,6 +1,5 @@
 let d;
 let r;
-let centre;
 let pie;
 let pointsIn;
 let pointsTotal;
@@ -53,15 +52,4 @@ function draw() {
   }
   pie = 4 * pointsIn / pointsTotal;
   estimate.html(pie);
-
-  // test circle
-  // stroke(255);
-  // noFill();
-  // ellipse(r, r, d, d);
-
-  // pi text output
-  //textAlign(CENTER);
-  //textSize(60);
-  //fill(255);
-  //text(round(pie * precision) / precision, r, 450);
 }
