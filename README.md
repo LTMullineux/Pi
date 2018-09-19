@@ -1,2 +1,2 @@
 # Pi
-Estimating pi with p5.js
+Estimating [pi](https://ltmullineux.github.io/Pi/.) with p5.js
