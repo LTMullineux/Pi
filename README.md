@@ -4,4 +4,4 @@ Estimating [pi](https://ltmullineux.github.io/Pi/.) with [p5.js](https://p5js.or
 - Points are randomly sampled from inside a square with side length `2r`.
 - The total number of points `= N_total`.
 - Points that fall inside the circle with radius `= r` that lies inside the square are tallied `= N_inside`.
-- Pi is then estimated as `pi = `.
+- Pi is then estimated as `pi = 4 * N_inside / N_total`.
